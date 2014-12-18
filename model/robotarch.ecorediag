@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_5WVCUYXeEeSwvP2DyazJNg" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_5ZAi4IXeEeSwvP2DyazJNg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5ZFbYIXeEeSwvP2DyazJNg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZGCcIXeEeSwvP2DyazJNg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5ZIesIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Actuator/pwmMode"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZIesYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZJFwIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Actuator/powerConsumption"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZJFwYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZJFwoXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Actuator/motorPower"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZJFw4XeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZGCcYXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZGCcoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZGCc4XeEeSwvP2DyazJNg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZHQkIXeEeSwvP2DyazJNg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZHQkYXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZHQkoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZHQk4XeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZAi4YXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="robotarch.ecore#//Actuator"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZAi4oXeEeSwvP2DyazJNg" y="328"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5ZJs0IXeEeSwvP2DyazJNg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5ZJs04XeEeSwvP2DyazJNg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZKT4IXeEeSwvP2DyazJNg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5ZK68IXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Node/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZK68YXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZK68oXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Node/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZK684XeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZKT4YXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZKT4oXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZKT44XeEeSwvP2DyazJNg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZKT5IXeEeSwvP2DyazJNg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZKT5YXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZKT5oXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZKT54XeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZJs0YXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="robotarch.ecore#//Node"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZJs0oXeEeSwvP2DyazJNg" x="272"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5ZLiAIXeEeSwvP2DyazJNg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5ZLiA4XeEeSwvP2DyazJNg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZMJEIXeEeSwvP2DyazJNg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5ZNXMIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Registration/registrationId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZNXMYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZNXMoXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Registration/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZNXM4XeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZMJEYXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZMJEoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZMJE4XeEeSwvP2DyazJNg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZMwIIXeEeSwvP2DyazJNg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZMwIYXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZMwIoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZMwI4XeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZLiAYXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="robotarch.ecore#//Registration"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZLiAoXeEeSwvP2DyazJNg" x="258" y="328"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5ZN-QIXeEeSwvP2DyazJNg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5ZOlUIXeEeSwvP2DyazJNg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZOlUYXeEeSwvP2DyazJNg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5ZPMYIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Sensor/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZPMYYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZPMYoXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Sensor/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZPMY4XeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZPzcIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Sensor/powerConsumption"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZPzcYXeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZOlUoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZOlU4XeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZOlVIXeEeSwvP2DyazJNg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZOlVYXeEeSwvP2DyazJNg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZOlVoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZOlV4XeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZOlWIXeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZN-QYXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="robotarch.ecore#//Sensor"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZN-QoXeEeSwvP2DyazJNg" x="464" y="328"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5ZPzcoXeEeSwvP2DyazJNg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5ZQagIXeEeSwvP2DyazJNg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZQagYXeEeSwvP2DyazJNg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5ZRBlIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Client/isAvailable"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZRBlYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZRooIXeEeSwvP2DyazJNg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="robotarch.ecore#//Client/connectedtype"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZRooYXeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZQagoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZQag4XeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZQahIXeEeSwvP2DyazJNg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZRBkIXeEeSwvP2DyazJNg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZRBkYXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZRBkoXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZRBk4XeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZPzc4XeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="robotarch.ecore#//Client"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZPzdIXeEeSwvP2DyazJNg" x="243" y="196"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5ZS2wIXeEeSwvP2DyazJNg" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_5ZUE4IXeEeSwvP2DyazJNg" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_5ZUr8IXeEeSwvP2DyazJNg" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_5ZVTAIXeEeSwvP2DyazJNg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="robotarch.ecore#//Sensortype/light"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZVTAYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZV6EIXeEeSwvP2DyazJNg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="robotarch.ecore#//Sensortype/touch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZV6EYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZV6EoXeEeSwvP2DyazJNg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="robotarch.ecore#//Sensortype/laser"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZV6E4XeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZWhIIXeEeSwvP2DyazJNg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="robotarch.ecore#//Sensortype/color"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZWhIYXeEeSwvP2DyazJNg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5ZWhIoXeEeSwvP2DyazJNg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="robotarch.ecore#//Sensortype/ultrasonic"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZWhI4XeEeSwvP2DyazJNg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5ZUr8YXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5ZUr8oXeEeSwvP2DyazJNg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5ZUr84XeEeSwvP2DyazJNg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ZS2wYXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EEnum" href="robotarch.ecore#//Sensortype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZS2woXeEeSwvP2DyazJNg" x="650" y="20"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_5WVCUoXeEeSwvP2DyazJNg"/>
+  <element xmi:type="ecore:EPackage" href="robotarch.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZY9YIXeEeSwvP2DyazJNg" type="3002" source="_5ZAi4IXeEeSwvP2DyazJNg" target="_5ZPzcoXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5ZaLgIXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZaLgYXeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZaykIXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZaykYXeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZY9YYXeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZY9YoXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Actuator/parent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZY9Y4XeEeSwvP2DyazJNg" points="[0, 0, -173, 60]$[173, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c910IXeEeSwvP2DyazJNg" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c910YXeEeSwvP2DyazJNg" id="(0.16477273,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZbZoIXeEeSwvP2DyazJNg" type="3003" source="_5ZAi4IXeEeSwvP2DyazJNg" target="_5ZJs0IXeEeSwvP2DyazJNg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZbZoYXeEeSwvP2DyazJNg" routing="Tree" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZbZooXeEeSwvP2DyazJNg" fontName="微软雅黑"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZbZo4XeEeSwvP2DyazJNg" points="[1, 0, -251, 256]$[1, -30, -251, 226]$[149, -30, -103, 226]$[149, -162, -103, 94]$[253, -162, 1, 94]$[253, -256, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dASEoXeEeSwvP2DyazJNg" id="(0.24747474,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dASE4XeEeSwvP2DyazJNg" id="(0.2457627,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZbZpIXeEeSwvP2DyazJNg" type="3002" source="_5ZLiAIXeEeSwvP2DyazJNg" target="_5ZPzcoXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5ZcAsIXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZcAsYXeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZcAsoXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZcAs4XeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZbZpYXeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZbZpoXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Registration/nodes"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZbZp4XeEeSwvP2DyazJNg" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_rAYXeEeSwvP2DyazJNg" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_rAoXeEeSwvP2DyazJNg" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZcAtIXeEeSwvP2DyazJNg" type="3002" source="_5ZN-QIXeEeSwvP2DyazJNg" target="_5ZPzcoXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5ZcnwIXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZcnwYXeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZcnwoXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5Zcnw4XeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZcAtYXeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZcAtoXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Sensor/parent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZcAt4XeEeSwvP2DyazJNg" points="[1, 0, 153, 60]$[-152, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dASEIXeEeSwvP2DyazJNg" id="(0.24747474,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dASEYXeEeSwvP2DyazJNg" id="(0.66477275,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZcnxIXeEeSwvP2DyazJNg" type="3003" source="_5ZN-QIXeEeSwvP2DyazJNg" target="_5ZJs0IXeEeSwvP2DyazJNg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZcnxYXeEeSwvP2DyazJNg" routing="Tree" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZcnxoXeEeSwvP2DyazJNg" fontName="微软雅黑"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Zcnx4XeEeSwvP2DyazJNg" points="[1, 0, 253, 256]$[1, -30, 253, 226]$[-147, -30, 105, 226]$[-147, -162, 105, 94]$[-251, -162, 1, 94]$[-251, -256, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dA5IIXeEeSwvP2DyazJNg" id="(0.74747473,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5dA5IYXeEeSwvP2DyazJNg" id="(0.7457627,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZdO0IXeEeSwvP2DyazJNg" type="3002" source="_5ZPzcoXeEeSwvP2DyazJNg" target="_5ZLiAIXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5ZdO1IXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZdO1YXeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5Zd14IXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5Zd14YXeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZdO0YXeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZdO0oXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Client/parent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZdO04XeEeSwvP2DyazJNg" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c-c4IXeEeSwvP2DyazJNg" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c-c4YXeEeSwvP2DyazJNg" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5Zd14oXeEeSwvP2DyazJNg" type="3002" source="_5ZPzcoXeEeSwvP2DyazJNg" target="_5ZAi4IXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5Zd15oXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5Zd154XeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5Zec8IXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5Zec8YXeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5Zd144XeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5Zd15IXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Client/actuatorconnected"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Zd15YXeEeSwvP2DyazJNg" points="[0, 0, 154, -60]$[-153, 60, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_D84XeEeSwvP2DyazJNg" id="(0.32954547,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_rAIXeEeSwvP2DyazJNg" id="(0.74747473,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5Zec8oXeEeSwvP2DyazJNg" type="3002" source="_5ZPzcoXeEeSwvP2DyazJNg" target="_5ZN-QIXeEeSwvP2DyazJNg">
+    <children xmi:type="notation:Node" xmi:id="_5ZfEAIXeEeSwvP2DyazJNg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZfEAYXeEeSwvP2DyazJNg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5ZfEAoXeEeSwvP2DyazJNg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5ZfEA4XeEeSwvP2DyazJNg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5Zec84XeEeSwvP2DyazJNg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5Zec9IXeEeSwvP2DyazJNg" fontName="微软雅黑" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="robotarch.ecore#//Client/sensorconnected"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Zec9YXeEeSwvP2DyazJNg" points="[1, 0, -174, -60]$[175, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c-c4oXeEeSwvP2DyazJNg" id="(0.82954544,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_D8IXeEeSwvP2DyazJNg" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ZfEBIXeEeSwvP2DyazJNg" type="3003" source="_5ZPzcoXeEeSwvP2DyazJNg" target="_5ZJs0IXeEeSwvP2DyazJNg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ZfEBYXeEeSwvP2DyazJNg" routing="Tree" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ZfEBoXeEeSwvP2DyazJNg" fontName="微软雅黑"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ZfEB4XeEeSwvP2DyazJNg" points="[0, 0, 0, 124]$[0, -124, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_D8YXeEeSwvP2DyazJNg" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5c_D8oXeEeSwvP2DyazJNg" id="(0.5,1.0)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="robotarch"
+    nsURI="http://www.zstu.edu.cn/robot/robotarch" nsPrefix="robotarch">
+  <eClassifiers xsi:type="ecore:EClass" name="Actuator" eSuperTypes="#//Node">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" lowerBound="1"
+        eType="#//Client" eOpposite="#//Client/actuatorconnected"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pwmMode" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="powerConsumption" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="motorPower" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Node" eSuperTypes="http://www.eclipse.org/emf/2002/Ecore#//EModelElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Long"
+        unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        unsettable="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Registration" eSuperTypes="http://www.eclipse.org/emf/2002/Ecore#//EModelElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="registrationId" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodes" ordered="false"
+        upperBound="-1" eType="#//Client" containment="true" eOpposite="#//Client/parent"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sensor" eSuperTypes="#//Node">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1" eType="#//Sensortype"
+        unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" lowerBound="1"
+        eType="#//Client" eOpposite="#//Client/sensorconnected"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="powerConsumption" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Client" eSuperTypes="#//Node">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAvailable" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" lowerBound="1"
+        eType="#//Registration" eOpposite="#//Registration/nodes"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actuatorconnected" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//Actuator" containment="true" eOpposite="#//Actuator/parent"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sensorconnected" upperBound="-1"
+        eType="#//Sensor" containment="true" eOpposite="#//Sensor/parent"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="connectedtype" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Sensortype">
+    <eLiterals name="light"/>
+    <eLiterals name="touch" value="1"/>
+    <eLiterals name="laser" value="2" literal="laser"/>
+    <eLiterals name="color" value="3"/>
+    <eLiterals name="ultrasonic" value="4" literal="ultrasonic"/>
+  </eClassifiers>
+</ecore:EPackage>
